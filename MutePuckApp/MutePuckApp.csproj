@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>res\puck_gray.ico</ApplicationIcon>
+    <Platforms>AnyCPU;x86</Platforms>
+    <StartupObject>MutePuckApp.App</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="CoreAudioApi\**" />
+    <Compile Remove="UsbLibrary\**" />
+    <EmbeddedResource Remove="CoreAudioApi\**" />
+    <EmbeddedResource Remove="UsbLibrary\**" />
+    <None Remove="CoreAudioApi\**" />
+    <None Remove="UsbLibrary\**" />
+    <Page Remove="CoreAudioApi\**" />
+    <Page Remove="UsbLibrary\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="CoreAudioApi\CoreAudioApi.csproj" />
+    <ProjectReference Include="UsbLibrary\UsbLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MutePuckApp", "MutePuckApp\MutePuckApp.csproj", "{9E467203-9759-4B3B-8EB7-1CCB9F31D607}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9F1076AA-63DF-4128-9C10-FD65E425C783} = {9F1076AA-63DF-4128-9C10-FD65E425C783}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreAudioApi", "MutePuckApp\CoreAudioApi\CoreAudioApi.csproj", "{9F1076AA-63DF-4128-9C10-FD65E425C783}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsbLibrary", "MutePuckApp\UsbLibrary\UsbLibrary.csproj", "{5418AD1F-5EFF-49D6-A097-0EBB83BA52EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E467203-9759-4B3B-8EB7-1CCB9F31D607}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{9E467203-9759-4B3B-8EB7-1CCB9F31D607}.Debug|Any CPU.Build.0 = Debug|x86
+		{9E467203-9759-4B3B-8EB7-1CCB9F31D607}.Debug|x86.ActiveCfg = Debug|x86
+		{9E467203-9759-4B3B-8EB7-1CCB9F31D607}.Debug|x86.Build.0 = Debug|x86
+		{9E467203-9759-4B3B-8EB7-1CCB9F31D607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E467203-9759-4B3B-8EB7-1CCB9F31D607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E467203-9759-4B3B-8EB7-1CCB9F31D607}.Release|x86.ActiveCfg = Release|x86
+		{9E467203-9759-4B3B-8EB7-1CCB9F31D607}.Release|x86.Build.0 = Release|x86
+		{9F1076AA-63DF-4128-9C10-FD65E425C783}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{9F1076AA-63DF-4128-9C10-FD65E425C783}.Debug|Any CPU.Build.0 = Debug|x86
+		{9F1076AA-63DF-4128-9C10-FD65E425C783}.Debug|x86.ActiveCfg = Debug|x86
+		{9F1076AA-63DF-4128-9C10-FD65E425C783}.Debug|x86.Build.0 = Debug|x86
+		{9F1076AA-63DF-4128-9C10-FD65E425C783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F1076AA-63DF-4128-9C10-FD65E425C783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F1076AA-63DF-4128-9C10-FD65E425C783}.Release|x86.ActiveCfg = Release|x86
+		{9F1076AA-63DF-4128-9C10-FD65E425C783}.Release|x86.Build.0 = Release|x86
+		{5418AD1F-5EFF-49D6-A097-0EBB83BA52EB}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{5418AD1F-5EFF-49D6-A097-0EBB83BA52EB}.Debug|Any CPU.Build.0 = Debug|x86
+		{5418AD1F-5EFF-49D6-A097-0EBB83BA52EB}.Debug|x86.ActiveCfg = Debug|x86
+		{5418AD1F-5EFF-49D6-A097-0EBB83BA52EB}.Debug|x86.Build.0 = Debug|x86
+		{5418AD1F-5EFF-49D6-A097-0EBB83BA52EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5418AD1F-5EFF-49D6-A097-0EBB83BA52EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5418AD1F-5EFF-49D6-A097-0EBB83BA52EB}.Release|x86.ActiveCfg = Release|Any CPU
+		{5418AD1F-5EFF-49D6-A097-0EBB83BA52EB}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A78CDFE-E258-427A-95FA-E6388C05AF47}
+	EndGlobalSection
+EndGlobal
